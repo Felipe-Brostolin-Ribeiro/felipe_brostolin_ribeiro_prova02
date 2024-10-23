@@ -13,4 +13,10 @@ class Login {
     );
   }
 
+  Map<String, Object> toJson() {
+    return {
+      "email": email,
+      "senha": senha,
+    };
+  }
 }
